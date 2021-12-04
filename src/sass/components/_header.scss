@@ -1,0 +1,21 @@
+.header {
+  padding-top: 40px;
+  padding-bottom: 4px;
+  color: $main-text;
+  border-bottom: 2px solid $main-text;
+
+  &__container {
+    display: flex;
+    align-items: center;
+  }
+
+  &__btns {
+    display: flex;
+    margin-left: auto;
+    gap: 20px;
+  }
+
+  &__name {
+    font-size: 36px;
+  }
+}
